@@ -24,6 +24,52 @@ main p {
   margin-top: 2rem;
 }
 
+.gallery-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.gallery-container h2 {
+  margin: 2rem;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  /* width: 100%; */
+  height: auto;
+}
+
+.gallery-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.gallery-container h2 {
+  margin: 2rem;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  /* width: 100%; */
+  height: auto;
+}
+
 footer {
   position: absolute;
   left: 0%;
@@ -36,13 +82,12 @@ footer {
   gap: 3rem;
   background-color: gray;
   padding: 0.5rem;
-
 }
 
 footer a {
   color: white;
   text-decoration: none;
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 footer a:hover {
