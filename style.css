@@ -23,3 +23,29 @@ main h1 {
 main p {
   margin-top: 2rem;
 }
+
+footer {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-color: gray;
+  padding: 0.5rem;
+
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500; 
+}
+
+footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
