@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+header {
+  color:blue;
+}
+
 body {
   background-color: black;
   color: aliceblue;
